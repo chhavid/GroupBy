@@ -1,4 +1,4 @@
-const countFrequencies = require('./countFrequencies').countFrequencies;
+const countFrequencies = require('../src/countFrequencies.js').countFrequencies;
 const assert = require('./assert.js').assert;
 
 const testGroupElements = function (array, expGroups, description) {
