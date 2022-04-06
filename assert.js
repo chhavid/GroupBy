@@ -2,7 +2,7 @@ const isEqual = require('./isEqual').isEqual;
 
 const assertExpectation = function (actual, expected, description) {
   const testPassed = isEqual(actual, expected);
-  const status = testPassed ? '✓' : 'x';
+  const status = testPassed ? '✅' : '❌';
 
   console.log(status, '-', description);
   return testPassed;
